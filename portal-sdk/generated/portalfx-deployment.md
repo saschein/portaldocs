@@ -2,9 +2,9 @@
     * [Portal](#overview-portal)
     * [Portal deployment schedule](#overview-portal-deployment-schedule)
 * [Before deploying your extension](#before-deploying-your-extension)
-    * [(1) For extensions onboarding Ibiza: Enable/disable extensions](#before-deploying-your-extension-1-for-extensions-onboarding-ibiza-enable-disable-extensions)
-    * [(2) Extension "stamps"](#before-deploying-your-extension-2-extension-stamps)
-    * [(3) Understand extension runtime compatibility](#before-deploying-your-extension-3-understand-extension-runtime-compatibility)
+    * [(1) For extensions onboarding Ibiza: Enable/disable extensions](#before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
+    * [(2) Extension "stamps"](#before-deploying-your-extension-extension-stamps)
+    * [(3) Understand extension runtime compatibility](#before-deploying-your-extension-understand-extension-runtime-compatibility)
 * [Deploying extension UI](#deploying-extension-ui)
 * [Deploying extension controllers](#deploying-extension-controllers)
 * [Legacy/DIY deployments](#legacy-diy-deployments)
@@ -53,7 +53,7 @@ release, including bug fixes, new features, and a log of breaking changes.
 1. Extension "stamps"
 1. Understand extension runtime compatibility
 
-<a name="before-deploying-your-extension-1-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
+<a name="before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
 ### (1) For extensions onboarding Ibiza: Enable/disable extensions
 
 New extensions are disabled by default. This will hide the extension from users (it won't show up in the portal at all)
@@ -71,7 +71,7 @@ to enable both the extension and the Gallery item:
 
 To permanently enable an extension (e.g. if it's ready for general use), please contact the portal team.
 
-<a name="before-deploying-your-extension-2-extension-stamps"></a>
+<a name="before-deploying-your-extension-extension-stamps"></a>
 ### (2) Extension &quot;stamps&quot;
 
 Every extension can deploy one or more "stamps" based on their testing requirements. In Azure parlance, a "stamp" is an
@@ -98,7 +98,7 @@ of your extension as registered in the portal. For instance,
 `https://perf.devtest.ext.azure.com`). Note that you must specify the flag `feature.canmodifystamps=true` in order to
 override the stamp.
 
-<a name="before-deploying-your-extension-3-understand-extension-runtime-compatibility"></a>
+<a name="before-deploying-your-extension-understand-extension-runtime-compatibility"></a>
 ### (3) Understand extension runtime compatibility
 
 Extensions do not need to be recompiled and redeployed with every release of the SDK.

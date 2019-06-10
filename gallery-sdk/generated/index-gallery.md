@@ -7,12 +7,12 @@
     * [Marketplace Search ##](#gallery-item-specificiations-marketplace-search)
     * [Gallery Package Search Metadata ##](#gallery-item-specificiations-gallery-package-search-metadata)
     * [Marketplace Suggest ##](#gallery-item-specificiations-marketplace-suggest)
-    * [Localization ##](#gallery-item-specificiations-localization)
+    * [Localization ##](#gallery-item-specificiations-localization-1)
     * [FAQs and Notes ##](#gallery-item-specificiations-faqs-and-notes)
 * [Gallery Item Metadata](#gallery-item-metadata)
     * [Identity Information](#gallery-item-metadata-identity-information)
     * [Metadata](#gallery-item-metadata-metadata)
-    * [Images](#gallery-item-metadata-images)
+    * [Images](#gallery-item-metadata-images-1)
     * [Component Metadata](#gallery-item-metadata-component-metadata)
     * [Categories](#gallery-item-metadata-categories)
     * [Links](#gallery-item-metadata-links)
@@ -504,7 +504,7 @@ Customers can search for Marketplace items in two locations:
 
 When a user searches via the +New search box, they will be taken to the Marketplace "Everything" menu which displays all possible search results.
 
-<a name="gallery-item-specificiations-marketplace-search-marketplace-search"></a>
+<a name="gallery-item-specificiations-marketplace-search-marketplace-search-1"></a>
 ### Marketplace Search ###
 ![Marketplace Search][Marketplace_Search]
 
@@ -529,7 +529,7 @@ Example: In general, a gallery item with display name "Azure Package" will be ra
 ## Marketplace Suggest ##
 Suggestions in the Marketplace search boxes only suggest item display names and publisher names. The API finds the closest matching query string and does not prioritize any titles or publishers.
 
-<a name="gallery-item-specificiations-localization"></a>
+<a name="gallery-item-specificiations-localization-1"></a>
 ## Localization ##
 Marketplace is fully localized, but not all gallery items in the Marketplace are localized. To accommodate this, Marketplace will use a customer's search query to perform an English query as well as a query under the customer's current locale. If the customer's query matches the English or localized fields of a package, the localized package will be returned to the customer.
 
@@ -599,7 +599,7 @@ Below you will find a list of all metadata that is collected with a gallery item
 
 
 
-<a name="gallery-item-metadata-images"></a>
+<a name="gallery-item-metadata-images-1"></a>
 ## Images
 Below is the list of icons used in the gallery.
 
