@@ -37,9 +37,9 @@
     * [Migration steps](#dependency-injected-view-models-migration-steps)
     * [Pull Request Samples](#dependency-injected-view-models-pull-request-samples)
 * [Fast extension load](#fast-extension-load)
-    * [Prerequistes](#fast-extension-load-prerequistes)
-    * [Migration steps](#fast-extension-load-migration-steps)
-    * [Pull Request Samples](#fast-extension-load-pull-request-samples)
+    * [Prerequistes](#fast-extension-load-prerequistes-1)
+    * [Migration steps](#fast-extension-load-migration-steps-1)
+    * [Pull Request Samples](#fast-extension-load-pull-request-samples-1)
 
 
 <a name="performance-overview"></a>
@@ -682,7 +682,7 @@ MsPortalFx.require("Fx/DependencyInjection")
 
 The frameworks supports a new extension load contract that can improve extension load performance by one second at the 95th percentile by deprecating Program.ts and the classic extension initialization code path. Once your extension uses the new contract, the portal will no longer download and execute Program.ts and _generated/Manifest.ts. _generated/ExtensionDefinition.ts will be bundled with your blades.
 
-<a name="fast-extension-load-prerequistes"></a>
+<a name="fast-extension-load-prerequistes-1"></a>
 ## Prerequistes
 
 - Remove all requireJS shims.
@@ -692,7 +692,7 @@ The frameworks supports a new extension load contract that can improve extension
   - $(ExtensionPageVersion) breaking change notes: https://msazure.visualstudio.com/One/_workitems/edit/3276047
 - Prewarming / Web Workers is not a pre-requisite. If an extension onboards to both Prewarming and FastExtensionLoad, the framework will eliminate an additional 500 ms postMessage call, allowing an extension to reach sub-second extension load time.
 
-<a name="fast-extension-load-migration-steps"></a>
+<a name="fast-extension-load-migration-steps-1"></a>
 ## Migration steps
 
 - Since the new extension load contract will no longer execute Program.ts, your extension's Program.ts should only contain the bare minimum scaffolding. Refer to the following Program.ts for an example: https://msazure.visualstudio.com/One/_git/AzureUX-PortalFx/pullrequest/1320194?_a=files&path=%2Fsrc%2FSDK%2FAcceptanceTests%2FExtensions%2FInternalSamplesExtension%2FExtension%2FClient%2FProgram.ts
@@ -736,7 +736,7 @@ The frameworks supports a new extension load contract that can improve extension
 - You can verify whether the migration was completed successfully by sideloading your extension in MPAC and checking whether the expression `FxImpl.Extension.isFastExtensionLoadEnabled()` returns `true` in the iframe/webworker of your extension.
 
 
-<a name="fast-extension-load-pull-request-samples"></a>
+<a name="fast-extension-load-pull-request-samples-1"></a>
 ## Pull Request Samples
 
 - https://dev.azure.com/msazure/One/_git/Mgmt-RecoverySvcs-Portal/pullrequest/1423720

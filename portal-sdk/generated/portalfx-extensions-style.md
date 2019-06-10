@@ -9,7 +9,7 @@ The portal includes a built in list of CSS classes that may be used inside of yo
 
 Browse the following topics to learn about portal styling:
 
-<a name="styling-style-guide-for-designers"></a>
+<a name="styling-style-guide-for-designers-1"></a>
 ## Style Guide: For designers
 For an overall style guide refer to the [design-patterns-style-guide.md](design-patterns-style-guide.md)
 
@@ -57,7 +57,7 @@ The styles included in the CSS file may now be used inside HTML templates:
 </div>
 ```
 
-<a name="styling-style-guide-for-designers"></a>
+<a name="styling-style-guide-for-designers-2"></a>
 ## Style Guide: For designers
 For an overall style guide refer to the [design-patterns-style-guide.md](design-patterns-style-guide.md)
 
@@ -86,7 +86,7 @@ Properties that are sanitized out:
     * Use class `msportalfx-unselectable` to normalize support across browsers
 * `z-index`
 
-<a name="styling-style-guide-for-designers"></a>
+<a name="styling-style-guide-for-designers-3"></a>
 ## Style Guide: For designers
 For an overall style guide refer to the [design-patterns-style-guide.md](design-patterns-style-guide.md)
 
@@ -111,7 +111,7 @@ msportalfx-link-primary
 msportalfx-highlight
 ```
 
-<a name="styling-style-guide-for-designers"></a>
+<a name="styling-style-guide-for-designers-4"></a>
 ## Style Guide: For designers
 For an overall style guide refer to the [design-patterns-style-guide.md](design-patterns-style-guide.md)
 
@@ -190,7 +190,7 @@ msportalfx-gridcolumn-statusicon
 ```
 > Applied as the css class name for a grid column which is showing a status SVG icon.
 
-<a name="styling-style-guide-for-designers"></a>
+<a name="styling-style-guide-for-designers-5"></a>
 ## Style Guide: For designers
 For an overall style guide refer to the [design-patterns-style-guide.md](design-patterns-style-guide.md)
 

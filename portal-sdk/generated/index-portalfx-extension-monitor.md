@@ -104,9 +104,9 @@
     * [Migration steps](top-extensions-performance.md#migration-steps)
     * [Pull Request Samples](top-extensions-performance.md#pull-request-samples)
 * [Fast extension load](top-extensions-performance.md#fast-extension-load)
-    * [Prerequistes](top-extensions-performance.md#prerequistes)
-    * [Migration steps](top-extensions-performance.md#migration-steps)
-    * [Pull Request Samples](top-extensions-performance.md#pull-request-samples)
+    * [Prerequistes](top-extensions-performance.md#prerequistes-1)
+    * [Migration steps](top-extensions-performance.md#migration-steps-1)
+    * [Pull Request Samples](top-extensions-performance.md#pull-request-samples-1)
 
 
 
