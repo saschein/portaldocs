@@ -1,4 +1,4 @@
-# Release Notes since 2/12/2019
+# Release Notes since 2/13/2019
 
 ## 5.0.302.21101
 0 Breaking Changes, 1 Features added and 1 Bugs Fixed
@@ -29,16 +29,12 @@
 <table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
 
 ## 5.0.302.20501
-1 Breaking Changes, 5 Features added and 19 Bugs Fixed
+2 Breaking Changes, 5 Features added and 18 Bugs Fixed
 <table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
 
 ## 5.0.302.20401
 5 Breaking Changes, 81 Features added and 209 Bugs Fixed
 <table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.20333
-0 Breaking Changes, 0 Features added and 0 Bugs Fixed
-<table>undefined</table>
 
 ## 5.0.302.20301
 0 Breaking Changes, 4 Features added and 3 Bugs Fixed
@@ -63,10 +59,6 @@
 ## 5.0.302.19801
 0 Breaking Changes, 1 Features added and 0 Bugs Fixed
 <table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.19705
-0 Breaking Changes, 0 Features added and 0 Bugs Fixed
-<table>undefined</table>
 
 ## 5.0.302.19701
 0 Breaking Changes, 0 Features added and 2 Bugs Fixed
@@ -326,24 +318,4 @@
 
 ## 5.0.302.12801
 1 Breaking Changes, 2 Features added and 3 Bugs Fixed
-<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.12701
-0 Breaking Changes, 3 Features added and 0 Bugs Fixed
-<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.12601
-0 Breaking Changes, 2 Features added and 3 Bugs Fixed
-<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.12501
-0 Breaking Changes, 4 Features added and 6 Bugs Fixed
-<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.12401
-0 Breaking Changes, 2 Features added and 6 Bugs Fixed
-<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
-
-## 5.0.302.12301
-10 Breaking Changes, 109 Features added and 310 Bugs Fixed
 <table></table>
