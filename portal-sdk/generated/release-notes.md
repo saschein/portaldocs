@@ -1,4 +1,24 @@
-# Release Notes since 2/17/2019
+# Release Notes since 2/18/2019
+
+## 5.0.302.21701
+0 Breaking Changes, 0 Features added and 0 Bugs Fixed
+<table>undefined</table>
+
+## 5.0.302.21601
+0 Breaking Changes, 2 Features added and 9 Bugs Fixed
+<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
+
+## 5.0.302.21501
+0 Breaking Changes, 3 Features added and 6 Bugs Fixed
+<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
+
+## 5.0.302.21401
+3 Breaking Changes, 70 Features added and 202 Bugs Fixed
+<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
+
+## 5.0.302.21201
+0 Breaking Changes, 1 Features added and 0 Bugs Fixed
+<table><tr><td>None</td><td>None</td><td>No public work items listed in this build.</td></tr></table>
 
 ## 5.0.302.21101
 0 Breaking Changes, 1 Features added and 1 Bugs Fixed
