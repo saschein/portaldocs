@@ -1,4 +1,4 @@
-# Release Notes since 3/1/2019
+# Release Notes since 3/2/2019
 
 ## 5.0.302.24101
 0 Breaking Changes, 1 Features added and 0 Bugs Fixed
