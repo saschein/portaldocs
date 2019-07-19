@@ -83,7 +83,7 @@ always-auth=true
   "description": "",
   "main": "index.js",
   "scripts": {
-    "restore": "npm install --no-color --no-optional",
+    "restore": "npm install --silent --no-color --no-optional",
     "build": "npm run restore && gulp generateAmdModuleFromResx --no-color --gulpfile=./node_modules/msportalfx-ut/gulpfile.js --silent --cwd ./ && tsc -p tsconfig.json",
     "test": "npm run build && karma start",
     "test-ci": "npm run build && karma start --single-run --no-colors"

@@ -4,10 +4,10 @@
     * [Overview](#deploy-overview)
         * [Portal](#deploy-overview-portal)
         * [Portal deployment schedule](#deploy-overview-portal-deployment-schedule)
-    * [Before deploying your extension](#deploy-before-deploying-your-extension)
-        * [(1) For extensions onboarding Ibiza: Enable/disable extensions](#deploy-before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
-        * [(2) Extension "stamps"](#deploy-before-deploying-your-extension-extension-stamps)
-        * [(3) Understand extension runtime compatibility](#deploy-before-deploying-your-extension-understand-extension-runtime-compatibility)
+    * [Before deploying extension](#deploy-before-deploying-extension)
+        * [1. For extensions onboarding Ibiza: Enable/disable extensions](#deploy-before-deploying-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
+        * [2. Extension "stamps"](#deploy-before-deploying-extension-extension-stamps)
+        * [3. Understand extension runtime compatibility](#deploy-before-deploying-extension-understand-extension-runtime-compatibility)
     * [Deploying extension UI](#deploy-deploying-extension-ui)
     * [Deploying extension controllers](#deploy-deploying-extension-controllers)
     * [Legacy/DIY deployments](#deploy-legacy-diy-deployments)
@@ -62,8 +62,10 @@ release, including bug fixes, new features, and a log of breaking changes.
 1. Extension "stamps"
 1. Understand extension runtime compatibility
 
-<a name="deploy-before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
-### (1) For extensions onboarding Ibiza: Enable/disable extensions
+<a name="deploy-before-deploying-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
+### >
+<li>For extensions onboarding Ibiza: Enable/disable extensions</li>
+<
 
 New extensions are disabled by default. This will hide the extension from users (it won't show up in the portal at all)
 until it's ready for general use.
@@ -80,8 +82,10 @@ to enable both the extension and the Gallery item:
 
 To permanently enable an extension (e.g. if it's ready for general use), please contact the portal team.
 
-<a name="deploy-before-deploying-your-extension-extension-stamps"></a>
-### (2) Extension &quot;stamps&quot;
+<a name="deploy-before-deploying-extension-extension-stamps"></a>
+###  start="2">
+<li>Extension &quot;stamps&quot;</li>
+<
 
 Every extension can deploy one or more "stamps" based on their testing requirements. In Azure parlance, a "stamp" is an
 instance of a service in a region. The "main" stamp is used for production and is the only one the portal will be
@@ -107,8 +111,10 @@ of your extension as registered in the portal. For instance,
 `https://perf.devtest.ext.azure.com`). Note that you must specify the flag `feature.canmodifystamps=true` in order to
 override the stamp.
 
-<a name="deploy-before-deploying-your-extension-understand-extension-runtime-compatibility"></a>
-### (3) Understand extension runtime compatibility
+<a name="deploy-before-deploying-extension-understand-extension-runtime-compatibility"></a>
+###  start="3">
+<li>Understand extension runtime compatibility</li>
+<
 
 Extensions do not need to be recompiled and redeployed with every release of the SDK.
 

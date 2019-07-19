@@ -42,11 +42,19 @@ A Slider is a good choice when you know that users think of the value as a relat
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
+* To display HTML in the infoBalloonContent use this code
+
+infoBalloonContent: {
+    htmlTemplate:"<b>Sample label</b><br>infoBalloonContent should explain concepts and <br>can include a link to learn more.<a>Learn 
+    more about infoBalloon</a>",
+    viewModel: {},
+}
+
 
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
 #### Interactive control and sample source code
-To see the latest control, change options and get source code for your project use the interactive playground site.  [Learn more](./top-extensions-controls-playground.md).
+Go to the playground site to use the latest control and get source code for your project.  [Learn more about playground](./top-extensions-controls-playground.md).
 
 The Slider control offers different create methods and has the following entries in the interactive controls playground
 

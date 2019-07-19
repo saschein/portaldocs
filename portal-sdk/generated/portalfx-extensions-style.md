@@ -86,6 +86,10 @@ Properties that are sanitized out:
     * Use class `msportalfx-unselectable` to normalize support across browsers
 * `z-index`
 
+Certain properties have inconsistent behavior across browsers, or full support requires vendor prefixes. To enable them in a supported way, use the Framework style class instead.
+
+* user-select: use class 'msportalfx-unselectable'
+
 <a name="styling-style-guide-for-designers-3"></a>
 ## Style Guide: For designers
 For an overall style guide refer to the [design-patterns-style-guide.md](design-patterns-style-guide.md)
