@@ -18,7 +18,7 @@
     "q": "^1.4.1"
   },
   "scripts": {
-    "docs": "gulp docs --verifyurl",
+    "docs": "gulp docs",
     "dynamicdocs": "gulp dynamicdocs",
     "gallery": "gulp gallery",
     "rp": "gulp rp",
