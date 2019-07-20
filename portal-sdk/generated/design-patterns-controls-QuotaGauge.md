@@ -16,18 +16,17 @@ QuotaGauge shows the status of a current value against a quota (limit) and total
 Use the QuotaGauge to show a current value in relation to a quota (limit) and total.  For example, the user may want to understand how much money they have spent in relation to their budget (quota) and projected total.
 
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
-* AreaChart
-* BarChart
-* Donut
-* LineChart
-* Map
-* Metrics
-* MonitorChart
-* QuotaGauge
-* ScatterChart
-* SingleMetric
-* SingleValueGauge
-
+* **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
+* **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
+* **Donut** - displays proportional data as part of a whole.
+* **LineChart** - displays a series of data points connected by straight line segments.
+* **Map** - displays data with longitude and latitude coordinates on a world map.
+* **Metrics** - displays a single value for a set of metrics
+* **MonitorChartV2** - displays the metrics for your resource and inherently knows how to fetch data for your resource.
+* **QuotaGauge** - displays the current value relative to a quota (limit) and total.
+* **ScatterChart** - displays a plot of data points without any connecting lines
+* **SingleMetric** - displays a single value for a metric
+* **SingleValueGauge** - displays the status of a current value relative to an optional total.  
 
 
 
@@ -57,7 +56,7 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
 #### Interactive control and sample source code
-To see the latest control, change options and get source code for your project use the interactive playground site.  [Learn more](./top-extensions-controls-playground.md).
+Go to the playground site to use the latest control and get source code for your project.  [Learn more about playground](./top-extensions-controls-playground.md).
 
 *  <a href="https://ms.portal.azure.com/?Microsoft_Azure_Playground=true#blade/Microsoft_Azure_Playground/ControlsIndexBlade/QuotaGauge_create_Playground" target="_blank">QuotaGauge in the interactive controls playground</a>
 

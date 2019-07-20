@@ -49,6 +49,8 @@
     * [Operational best practices](top-extensions-performance.md#operational-best-practices)
     * [Coding best practices](top-extensions-performance.md#coding-best-practices)
     * [General best practices](top-extensions-performance.md#general-best-practices)
+* [Using the Portals ARM Token](top-extensions-performance.md#using-the-portals-arm-token)
+    * [Changes required](top-extensions-performance.md#changes-required)
 * [Extension load shim dependencies (removing shims)](top-extensions-performance.md#extension-load-shim-dependencies-removing-shims)
     * [How to fix shim usage](top-extensions-performance.md#how-to-fix-shim-usage)
 * [Performance profiling](top-extensions-performance.md#performance-profiling)
