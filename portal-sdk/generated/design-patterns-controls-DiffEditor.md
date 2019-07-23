@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+DiffEditor enables you to display differences in text content in various formats. 
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,41 @@
  
 <a name="when-to-use"></a>
 ### When to use
+The SDK offers the **Editor** and **DiffEditor** control to use when the user is managing text content.  You can use them in conjuction with each other. The Editor is useful for creating, viewing and editing content while the DiffEditor enables the user to review changes before or after having saved them.
+
+Use the DiffEditor to show differences in text content for various syntax, including 
+* B - Bat
+* C - C, CoffeeScript, Cpp, CSharp, CSHTML, Css, Custom, Dockerfile
+* F - Fsharp
+* G - Go
+* H - Handlebars, HTML
+* I - Ini
+* J - Java, JavaScript, JSHTM, JSON
+* L - Less, Lua
+* M - MarkDown, MySQL
+* O - ObjectiveC
+* P - PgSQL, Php, PowerShell, Pug, Python
+* R - R, Ruby
+* S - SQL, Swift
+* T - Text, TypeScript
+* V - VisualBasic
+* X - XAML, XML
+
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Set the proper contentType for your needs
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't make the DiffEditor too narrow, you need enough room to show side-by-side content
 
 
 
@@ -59,6 +78,8 @@ The DiffEditor control offers different create methods and has the following ent
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3015%3A557" target="_blank">DiffEditor in Azure Portal Toolkit (Figma)</a>
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

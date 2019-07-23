@@ -30,7 +30,7 @@ Use the PillCollection when you are performing filtering (as in All Resources or
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -53,9 +53,9 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A2972
-" target="_blank">PillCollection design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A2972
+" target="_blank">PillCollection in Azure Portal Toolkit (Figma)</a>
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

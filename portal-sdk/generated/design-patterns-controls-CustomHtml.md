@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The CustomHTML control enables you to easily display html formatted text.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use CustomHTML control to display HTML text
 
 
  
@@ -22,13 +24,14 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Set the label to describe the HTML text you are displaying
+* Use concise, meaningful infoBalloonContext to further explain the HTML content purpose.
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+
 
 
 
@@ -51,6 +54,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+<!-- TODO link to Figma -->
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

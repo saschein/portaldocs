@@ -19,7 +19,6 @@ The ListView displays a simple list of items
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
@@ -29,7 +28,7 @@ The ListView displays a simple list of items
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -64,6 +63,8 @@ The ListView control offers different create methods and has the following entri
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+<!-- TODO link to Figma -->
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

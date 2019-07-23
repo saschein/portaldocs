@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Markdown control enables you to display content that is formatted using the markdown language.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the Markdown control when you have markdown content that you want to display. 
 
 
  
@@ -22,13 +24,12 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Use the Markdown control to display markdown formatted content.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't limit the size of the control - you may need room for the formatted content.
 
 
 
@@ -51,6 +52,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+<!-- TODO link to Figma -->
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

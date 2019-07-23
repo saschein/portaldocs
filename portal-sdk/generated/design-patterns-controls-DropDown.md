@@ -14,6 +14,18 @@ A DropDown is a list in which the selected item is always visible, and the other
  
 <a name="when-to-use"></a>
 ### When to use
+To select a **single option** among existing values.  Choose the control best suited to your needs
+* **CheckBox** - a choice to opt in to a single choice.  For example, use a CheckBox for "I agree" instead of a different control where the user chooses between "I agree" and "I don't agree".
+* **TriStateCheckBox** - can be checked, not checked or partially checked to indicate the checked state of children items in a hierarchy.
+* **DropDown** - a single choice between a large number of options.  The DropDown control is also used on a smaller set of options where the default option is recommended for most users.  The DropDown control can also be used to make multiple selections from a set of options.
+* **OptionsGroup** - a single choice between 2-4 equally weighted options where the options names are short.  For example, if the choices are On/Off, Yes/No, or None/Basic/Advanced an option group will work well.  
+* **RadioButtons** - a single choice between 2-7 equally weighted options where the option names are long.   
+
+
+
+ 
+<a name="best-practices"></a>
+### Best practices
 DropDowns are used to simplify the design and make a choice within the UI. When closed, only the selected item is visible. When users click the drop-down button, all the options become visible. To change the value, users open the list and click another value or use the arrow keys (up and down) to select a new value.
 
 DropDown offers the following options:
@@ -21,12 +33,6 @@ DropDown offers the following options:
 * Filtering / Searching 
 * Multiselect + Select all
 * HTML formatting of items 
-
-
-
- 
-<a name="best-practices"></a>
-### Best practices
 
 <a name="best-practices-do"></a>
 #### Do
@@ -37,7 +43,7 @@ DropDown offers the following options:
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
-
+* Don't use DropDown when there are 2-7 equally weighted options that the user needs to see, use RadioButtons or OptionsGroup instead.
 
 
 
@@ -60,8 +66,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3071%3A379395" target="_blank">DropDown design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3071%3A379395" target="_blank">DropDown in Azure Portal Toolkit (Figma)</a>
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

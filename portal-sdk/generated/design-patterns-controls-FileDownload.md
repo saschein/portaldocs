@@ -20,7 +20,6 @@ The FileDownload control enables the user to download files
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
@@ -29,13 +28,15 @@ The FileDownload control enables the user to download files
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
  
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
+
+* <a href="https://df.onecloud.azure-test.net/?SamplesExtension=true#blade/SamplesExtension/FileDownloadBlade/OAuthFileDownloadButton" target="_blank">FileUpload in the samples extension</a>
 
 
 
@@ -62,6 +63,8 @@ The FileDownload control offers different create methods and has the following e
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8199%3A347924" target="_blank">Control in Azure Portal Toolkit (Figma)</a>
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

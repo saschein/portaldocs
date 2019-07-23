@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The OAuthButton integrates with OAuth enabled services and provides the experience to open a window where the user 
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,23 +13,23 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the OAuthButton to integrate alternate authentication services
 
 
  
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Set the **buttonText** to reflect the authentication service like "Sign in with GitHub"
+* Set the **popupHeight** and **pupupWidth** so the resulting authentication screen fits
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -51,6 +52,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8199%3A347912" target="_blank">TextBox in Azure Portal Toolkit (Figma)</a>
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

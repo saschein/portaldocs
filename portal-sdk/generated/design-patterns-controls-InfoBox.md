@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The InfoBox enables you to display helpful information to the user
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the InfoBox to display information to the user that you want to call particular attention to.  Typically, the InfoBox content is the result of a special situation.
 
 
  
@@ -22,13 +24,15 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Use InfoBox only for special situations where the information needs attention
+* Format InfoBox text using HTML to decorate text, use bullets, use links, etc  There is guidance in the Azure Design Templates figma file on common InfoBox formatting.
+
 
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't overuse InfoBox.  If the text should always be on the page, then just put it directly on the page.
 
 
 
@@ -50,6 +54,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+<!-- TODO link to Figma -->
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

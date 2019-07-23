@@ -3,7 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
-The console control provides a REPL like experience which can be used to replicate a Bash/PowerShell/Batch like experience.
+The console control provides a command-line, REPL: Read-Eval-Print-Loop, experience which can be used to replicate a Bash/PowerShell/Batch experience.
 
 
 
@@ -14,6 +14,7 @@ The console control provides a REPL like experience which can be used to replica
  
 <a name="when-to-use"></a>
 ### When to use
+Use the console control when you want to provide a command-line interface.
 
 
  
@@ -24,13 +25,9 @@ The console control provides a REPL like experience which can be used to replica
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
+* Set the prompt appropriately
+* Esnure the user understands the command-line interface you are offering
 
-
-<a name="best-practices-don-t"></a>
-#### Don&#39;t
-
-* bullet one
 
 
 
@@ -53,6 +50,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=8779%3A349048" target="_blank">Console in Azure Portal Toolkit (Figma)</a>
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

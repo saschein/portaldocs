@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Pill control is the basic building block of filtering experiences
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,6 +13,7 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the Pill control to present filtering options
 
 
  
@@ -22,13 +24,13 @@
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Provide the default starter set of filters on your page
+* Use the **Add filter** button with text.  We have a lot of research data that users prefer commands with an icon and text.
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't use square dropdowns when filtering - the Pill is our standard control for filtering
 
 
 
@@ -50,9 +52,9 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A2972
-" target="_blank">Pill design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A2972
+" target="_blank">Pill in Azure Portal Toolkit (Figma)</a>
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

@@ -94,7 +94,5 @@
 * [Understanding the blade view model](portalfx-blade-viewmodel.md#understanding-the-blade-view-model)
     * [Blade initialization](portalfx-blade-viewmodel.md#blade-initialization)
 
-* [How to expose config settings for consumption in the client](portalfx-load-configuration.md#how-to-expose-config-settings-for-consumption-in-the-client)
-* [Step by step walkthrough](portalfx-load-configuration.md#step-by-step-walkthrough)
 
 
