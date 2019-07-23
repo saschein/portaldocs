@@ -18,7 +18,7 @@ First 5 items in left pane of the essentials are obtained by calling Azure Resou
  
 <a name="when-to-use"></a>
 ### When to use
-The Essentials control should be used on all overview pages in [resource management](http://aka.ms/portalfx/designpatterns/resourcemanage) experiences in Azure.
+The Essentials control should be used on all overview pages in [resource management]((http://aka.ms/portalfx/design)patterns/resourcemanage) experiences in Azure.
 
 
  
@@ -66,10 +66,10 @@ The Essentials control offers different create methods and has the following ent
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7668" target="_blank">Essentials design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3410%3A7668" target="_blank">Essentials in Azure Portal Toolkit (Figma)</a>
 
-* Manage a resource design pattern: [Manage a resource](http://aka.ms/portalfx/designpatterns/resourcemanage)
+* Manage a resource design pattern: [Manage a resource]((http://aka.ms/portalfx/design)patterns/resourcemanage)
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

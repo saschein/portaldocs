@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The Map control displays geographical data of longitude and latitude coordinates on a world map.
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,7 +13,6 @@
  
 <a name="when-to-use"></a>
 ### When to use
-
 The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
 * **AreaChart** - displays quantitative data like a LineChart with the area between axis and the lines filled with colors.
 * **BarChart** - displays categorical data using rectangular bars of proportional length to represent values.
@@ -31,18 +31,18 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use the Map control when you have geographical data with longitude and latitude coordinates.
 
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+* Provide enough room on the page for the Map control to fully display
+* Provide meaningful icons to correspond with each datapoint
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+* Don't constrain the size of the control
 
 
 
@@ -64,6 +64,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3759%3A411280" target="_blank">Data visualization in Azure Portal Toolkit (Figma)</a>
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

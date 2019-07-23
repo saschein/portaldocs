@@ -23,17 +23,15 @@ From simple experiences that visualize basic lists to advanced scenarios such as
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
-* bullet one
-
+<!-- TODO need Do's -->
 
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -55,8 +53,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A15931" target="_blank">DataGrid design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3083%3A15931" target="_blank">DataGrid in Azure Portal Toolkit (Figma)</a>
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

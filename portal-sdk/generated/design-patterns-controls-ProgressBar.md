@@ -65,6 +65,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+<!-- TODO link to Figma -->
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

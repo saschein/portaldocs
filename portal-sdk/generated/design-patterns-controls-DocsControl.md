@@ -3,6 +3,7 @@
  
 <a name="basics"></a>
 ### Basics
+The DocsControl enables you to display embedded content from docs.microsoft.com directly in the portal
 
 
 <!-- TODO get an IMAGE to embed here -->
@@ -12,12 +13,12 @@
  
 <a name="when-to-use"></a>
 ### When to use
+Use the DocsControl to display your docs directly in the portal
 
 
  
 <a name="best-practices"></a>
 ### Best practices
-
 
 <a name="best-practices-do"></a>
 #### Do
@@ -28,7 +29,7 @@
 <a name="best-practices-don-t"></a>
 #### Don&#39;t
 
-* bullet one
+<!-- TODO need Don'ts -->
 
 
 
@@ -53,6 +54,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+<!-- TODO link to Figma -->
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

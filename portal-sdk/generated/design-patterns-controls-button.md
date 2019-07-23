@@ -45,7 +45,7 @@ While buttons can technically be used to navigate a user to another part of the 
 * Don’t place the default focus on a button that destroys data. Instead, place the default focus on the button that performs the "safe act" and retains the content (i.e. "Save") or cancels the action (i.e. "Cancel").
 * Don’t use a button to navigate to another place, use a link instead. The exception is in a wizard where "Back" and "Next" buttons may be used.
 * Don’t put too much text in a button - try to keep the length of your text to a minimum.
-Don't put anything other than text in a button.
+* Don't put anything other than text in a button.
 
 
  
@@ -66,8 +66,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3019%3A285" target="_blank">Button design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3019%3A285" target="_blank">Button in Azure Portal Toolkit (Figma)</a>
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

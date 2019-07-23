@@ -26,24 +26,12 @@ The SDK offers a set data visualization controls.  Choose the one that is most s
 * **SingleMetric** - displays a single value for a metric
 * **SingleValueGauge** - displays the status of a current value relative to an optional total.  
 
-The SDK offers a set data visualization controls.  Choose the one that is most suitable to your need.
-* AreaChart
-* BarChart
-* Donut
-* LineChart
-* Map
-* Metrics
-* MonitorChart
-* QuotaGauge
-* ScatterChart
-* SingleMetric
-* SingleValueGauge
 
 
  
 <a name="best-practices"></a>
 ### Best practices
-
+Use a BarChart to show comparisons between discrete categories.
 
 <a name="best-practices-do"></a>
 #### Do
@@ -77,6 +65,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3759%3A411280" target="_blank">Data visualization in Azure Portal Toolkit (Figma)</a>
+
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 

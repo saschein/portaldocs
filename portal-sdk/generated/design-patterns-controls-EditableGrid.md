@@ -20,7 +20,6 @@ Use the EditableGrid when the data set is suited to a tabular layout and the use
 <a name="best-practices"></a>
 ### Best practices
 
-
 <a name="best-practices-do"></a>
 #### Do
 
@@ -37,6 +36,8 @@ Use the EditableGrid when the data set is suited to a tabular layout and the use
 <a name="developer-tips-and-tricks"></a>
 ### Developer tips and tricks
 
+* <a href="https://df.onecloud.azure-test.net/?SamplesExtension=true#blade/SamplesExtension/EditableGrid/Validation" target="_blank">EditableGrid in the samples extension</a>
+
 
 
 <a name="developer-tips-and-tricks-interactive-control-and-sample-source-code"></a>
@@ -52,8 +53,8 @@ Go to the playground site to use the latest control and get source code for your
 <a name="related-info"></a>
 ### Related info
 
-* Azure Portal Toolkit: <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3493%3A397646" target="_blank">EditableGrid design in figma</a>
+* <a href="https://www.figma.com/file/Bwn8rmUOYtnPRwA3JoQTBn/Azure-Portal-Toolkit?node-id=3493%3A397646" target="_blank">EditableGrid in Azure Portal Toolkit (Figma)</a>
 
-* Azure design guidance:  http://aka.ms/portalfx/design
+* [Azure design guidance](http://aka.ms/portalfx/design)
 
 
