@@ -143,32 +143,6 @@ MsPortalFx.Hubs.Notifications.ClientNotification.publish({
 });
 ```
 
-<a name="notifications-defining-your-notifications-locked-resource-notifications"></a>
-#### Locked Resource Notifications
-
-If when a resource is deleted, the server returns a locked notification, you can redirect to the resource lock blade.
-
-The json returned from arm for a locked resource would look something like this
-```json
-{  
-   "error":{  
-      "code":"ScopeLocked",
-      "message":"The scope '/subscriptions/1/resourceGroups/Group' cannot perform delete operation because following scope(s) are locked '/subscriptions/1/resourceGroup/1'. Please remove the lock and try again."
-   }
-}
-```
-To link your notificaton to the locks blade, in your notification callback, you can publish with the following json
-```ts
-MsPortalFx.Hubs.Notifications.ClientNotification.publish({
-    … other properties …
-    linkedBlade: MsPortalFx.ViewModels.getBladeSelection(
-        "HubsExtension",
-        "LocksBlade",
-        { resourceId: … your resource id … }
-    )
-})
-```
-
 <a name="notifications-defining-your-notifications-suppressing-server-events"></a>
 #### Suppressing server events
 

@@ -1,10 +1,10 @@
 * [Overview](#overview)
     * [Portal](#overview-portal)
     * [Portal deployment schedule](#overview-portal-deployment-schedule)
-* [Before deploying your extension](#before-deploying-your-extension)
-    * [(1) For extensions onboarding Ibiza: Enable/disable extensions](#before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
-    * [(2) Extension "stamps"](#before-deploying-your-extension-extension-stamps)
-    * [(3) Understand extension runtime compatibility](#before-deploying-your-extension-understand-extension-runtime-compatibility)
+* [Before deploying extension](#before-deploying-extension)
+    * [1. For extensions onboarding Ibiza: Enable/disable extensions](#before-deploying-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
+    * [2. Extension "stamps"](#before-deploying-extension-extension-stamps)
+    * [3. Understand extension runtime compatibility](#before-deploying-extension-understand-extension-runtime-compatibility)
 * [Deploying extension UI](#deploying-extension-ui)
 * [Deploying extension controllers](#deploying-extension-controllers)
 * [Legacy/DIY deployments](#legacy-diy-deployments)
@@ -46,15 +46,17 @@ to production. When a new version of the portal is deployed to production, the c
 automatically released to the [download center](/portal-sdk/generated/downloads.md). The download center contains the change log for the given
 release, including bug fixes, new features, and a log of breaking changes.
 
-<a name="before-deploying-your-extension"></a>
-## Before deploying your extension
+<a name="before-deploying-extension"></a>
+## Before deploying extension
 
 1. For extensions onboarding Ibiza: Enable/disable extensions
 1. Extension "stamps"
 1. Understand extension runtime compatibility
 
-<a name="before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
-### (1) For extensions onboarding Ibiza: Enable/disable extensions
+<a name="before-deploying-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
+### >
+<li>For extensions onboarding Ibiza: Enable/disable extensions</li>
+<
 
 New extensions are disabled by default. This will hide the extension from users (it won't show up in the portal at all)
 until it's ready for general use.
@@ -71,8 +73,10 @@ to enable both the extension and the Gallery item:
 
 To permanently enable an extension (e.g. if it's ready for general use), please contact the portal team.
 
-<a name="before-deploying-your-extension-extension-stamps"></a>
-### (2) Extension &quot;stamps&quot;
+<a name="before-deploying-extension-extension-stamps"></a>
+###  start="2">
+<li>Extension &quot;stamps&quot;</li>
+<
 
 Every extension can deploy one or more "stamps" based on their testing requirements. In Azure parlance, a "stamp" is an
 instance of a service in a region. The "main" stamp is used for production and is the only one the portal will be
@@ -98,8 +102,10 @@ of your extension as registered in the portal. For instance,
 `https://perf.devtest.ext.azure.com`). Note that you must specify the flag `feature.canmodifystamps=true` in order to
 override the stamp.
 
-<a name="before-deploying-your-extension-understand-extension-runtime-compatibility"></a>
-### (3) Understand extension runtime compatibility
+<a name="before-deploying-extension-understand-extension-runtime-compatibility"></a>
+###  start="3">
+<li>Understand extension runtime compatibility</li>
+<
 
 Extensions do not need to be recompiled and redeployed with every release of the SDK.
 
@@ -138,7 +144,6 @@ latency.)
 ## Legacy/DIY deployments
 
 If you choose to deploy extension UI through legacy / DIY deployments, make sure you understand that
-
 1.	You will be responsible for deploying to all regions
 1.	You will be responsible for deploying service to every new data center
 1.	You will be responsible for MDS setup, upgrade, Security pack upgrade and other infrastructure tasks
@@ -162,7 +167,6 @@ We see much higher latencies and reliability issues when servers are not geo-loc
 (For more tips, see the [performance page](top-extensions-performance.md).)
 
 In order to deploy to all regions:
-
 1.	Use [Extension Hosting Service](portalfx-extension-hosting-service.md) to deploy UI
 1.	Deploy Controllers to all regions
 

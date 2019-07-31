@@ -3,7 +3,6 @@
     * [Spec Picker Blade](#pricing-tier-spec-picker-blade)
     * [Sample Spec Data](#pricing-tier-sample-spec-data)
 
-
 <a name="pricing-tier"></a>
 ## Pricing Tier
 <a name="pricing-tier-consuming-the-spec-picker-blade"></a>

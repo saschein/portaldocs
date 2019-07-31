@@ -62,14 +62,14 @@ In order for the shell to provide browser caching, the recommendation is for eve
 
 <a name="allowing-which-portal-can-load-the-extension"></a>
 ### Allowing which portal can load the extension
-Each extension `web.config` includes an `AllowedParentFrame` app setting that specifies the list of trusted hosts that can load the extension iframe. In production, this should be set to `['portal.azure.com']` explicitly. For testing/debugging, you can include the dogfood and onebox urls. 
+Each extension `web.config` includes an `AllowedParentFrame` app setting that specifies the list of trusted hosts that can load the extension iframe. In production, this should be set to `['portal.azure.com']` explicitly; however, for debugging purposes, you can also set it to `['*']` to allow other clients.
 
 ```xml
 <!-- production -->
 <add key="Microsoft.Portal.Framework.FrameworkConfiguration.AllowedParentFrame" value="['portal.azure.com']" />
 
 <!-- test -->
-<add key="Microsoft.Portal.Framework.FrameworkConfiguration.AllowedParentFrame" value="['df.onecloud.azure-test.net', 'onestb.cloudapp.net']" />
+<add key="Microsoft.Portal.Framework.FrameworkConfiguration.AllowedParentFrame" value="['*']" />
 ```
 
 <a name="questions"></a>

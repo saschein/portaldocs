@@ -183,7 +183,6 @@ To use the palette within SVG content, use the same class names as the one for [
     </svg>
 
 
-```html
 <style type="text/css">
   #statuspalette .statuscontainer {
     display: inline-flex;
@@ -269,9 +268,7 @@ To use the palette within SVG content, use the same class names as the one for [
     fill: #ff8c00;
   }
 </style>
-```
 
-```html
 <style type="text/css">
   #bgcolorpalette .bgcolorcontainer {
     display: inline-flex;
@@ -596,4 +593,3 @@ To use the palette within SVG content, use the same class names as the one for [
     color: #ffffff;
   }
 </style>
-```

@@ -19,7 +19,6 @@
     * [Create Flow Telemetry Dashboards](portalfx-telemetry-create.md#create-flow-telemetry-dashboards)
     * [Create Flow table](portalfx-telemetry-create.md#create-flow-table)
     * [Create Flow Functions](portalfx-telemetry-create.md#create-flow-functions)
-* [<a name="FAQ"></a>FAQ](portalfx-telemetry-create.md#a-name-faq-a-faq)
 
 
 <a name="create-troubleshooting"></a>

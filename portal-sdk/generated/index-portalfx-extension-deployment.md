@@ -4,7 +4,7 @@
 <a name="deployment"></a>
 # Deployment
 * [Overview](portalfx-deployment.md#overview)
-* [Before deploying your extension](portalfx-deployment.md#before-deploying-your-extension)
+* [Before deploying extension](portalfx-deployment.md#before-deploying-extension)
 * [Deploying extension UI](portalfx-deployment.md#deploying-extension-ui)
 * [Deploying extension controllers](portalfx-deployment.md#deploying-extension-controllers)
 * [Legacy/DIY deployments](portalfx-deployment.md#legacy-diy-deployments)

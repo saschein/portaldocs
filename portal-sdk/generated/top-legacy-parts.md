@@ -27,7 +27,7 @@ The following sections cover these topics.
 
 * [Per user part settings](#per-user-part-settings)
 
-* [The 'no data' message](#the-no-data-message)
+* [The 'no data' message](#the-"no-data"-message)
 
 * [Pinning parts](#pinning-parts)
 
@@ -138,42 +138,42 @@ The following procedure demonstrates how to use a custom part.
 
 ```xml
 
-	<CustomPart Name="ExampleCustomPart"
-        	    ViewModel="{ViewModel Name=ExampleCustomPartViewModel, Module=./Custom/ViewModels/ExampleCustomPartViewModel}"
-            		Template="{Html Source='Templates\\ExampleCustomPart.html'}"
-            		InitialSize="Large">
-  	<StyleSheet Source="{Css Source='Styles\\ExampleStyles.css'}" />
-	</CustomPart>
+<CustomPart Name="ExampleCustomPart"
+            ViewModel="{ViewModel Name=ExampleCustomPartViewModel, Module=./Custom/ViewModels/ExampleCustomPartViewModel}"
+            Template="{Html Source='Templates\\ExampleCustomPart.html'}"
+            InitialSize="Large">
+  <StyleSheet Source="{Css Source='Styles\\ExampleStyles.css'}" />
+</CustomPart>
 
-	```
+```
 
 2. The pdl points to the html template.
 
 ```xml
 
-	<h3>This is a custom part</h3>
+<h3>This is a custom part</h3>
 
-	<p>
-	Number of clicks: <strong data-bind="text: numberOfClicks"></strong>
-	</p>
+<p>
+Number of clicks: <strong data-bind="text: numberOfClicks"></strong>
+</p>
 
-	<div data-bind="visible: allowMoreClicks">
-	<button data-bind="click: increaseClickCount">Click me</button>
-	</div>
+<div data-bind="visible: allowMoreClicks">
+<button data-bind="click: increaseClickCount">Click me</button>
+</div>
 
-	<div class="ext-too-many-clicks-box" data-bind="visible: !allowMoreClicks()">
-	That's too many clicks!
-	<button data-bind="click: resetClickCount">Reset</button>
-	</div>
+<div class="ext-too-many-clicks-box" data-bind="visible: !allowMoreClicks()">
+That's too many clicks!
+<button data-bind="click: resetClickCount">Reset</button>
+</div>
 
-	<ul data-bind="foreach: myButtons">
-	<li>    
-    	<button data-bind="text: displayName, click: $parent.buttonClickHandler"></button>
-    	Number of clicks: <strong data-bind="text: clicked"></strong>
-	</li>
-	</ul>
+<ul data-bind="foreach: myButtons">
+<li>    
+    <button data-bind="text: displayName, click: $parent.buttonClickHandler"></button>
+    Number of clicks: <strong data-bind="text: clicked"></strong>
+</li>
+</ul>
 
-	```
+```
 
 3. The HTML template is bound to the following ViewModel by using **Knockout**, which is also referred to in the pdl.
 
@@ -310,12 +310,12 @@ A working copy is located at [http://aka.ms/portalfx/samples#blade/SamplesExtens
 
 ```xml
 
-	<CustomPart Name="LargePart"
-        	    ViewModel="{ViewModel Name=PartSizesLargePartViewModel, Module=./PartSizes/ViewModels/PartSizesViewModels}"
-            	Template="{Html Source='Templates\\SizeAwarePart.html'}"
-            	InitialSize="Large">
+<CustomPart Name="LargePart"
+            ViewModel="{ViewModel Name=PartSizesLargePartViewModel, Module=./PartSizes/ViewModels/PartSizesViewModels}"
+            Template="{Html Source='Templates\\SizeAwarePart.html'}"
+            InitialSize="Large">
 
-	```
+```
 
 2. The following part supports multiple, standard sizes.
 
@@ -323,32 +323,32 @@ A working copy is located at [http://aka.ms/portalfx/samples#blade/SamplesExtens
 
 ```xml
 
-	<CustomPart Name="MiniPart"
-        	    ViewModel="{ViewModel Name=PartSizesMiniPartViewModel, Module=./PartSizes/ViewModels/PartSizesViewModels}"
-            	Template="{Html Source='Templates\\SizeAwarePart.html'}"
-            	InitialSize="Mini">
-  	<CustomPart.SupportedSizes>
-    	<PartSize>Mini</PartSize>
-    	<PartSize>Normal</PartSize>
-  	</CustomPart.SupportedSizes>
-	</CustomPart>
+<CustomPart Name="MiniPart"
+            ViewModel="{ViewModel Name=PartSizesMiniPartViewModel, Module=./PartSizes/ViewModels/PartSizesViewModels}"
+            Template="{Html Source='Templates\\SizeAwarePart.html'}"
+            InitialSize="Mini">
+  <CustomPart.SupportedSizes>
+    <PartSize>Mini</PartSize>
+    <PartSize>Normal</PartSize>
+  </CustomPart.SupportedSizes>
+</CustomPart>
 
-	```
+```
 
 3. The following part defaults to an arbitrary size, and can be resized by the user.  The Framework automatically adds a drag handle to this part because of the value `ResizeMode="User"`.
 
 ```xml
 
-	<CustomPart Name="CustomSizeUserResizePart"
-        	    ViewModel="{ViewModel Name=PartSizesCustomSizeUserResizePartViewModel, Module=./PartSizes/ViewModels/PartSizesViewModels}"
-            	Template="{Html Source='Templates\\SizeAwarePart.html'}"
-            	InitialSize="Custom"
-            	InitialWidth="5"
-            	InitialHeight="2"
-            	ResizeMode="User">
-	</CustomPart>
+<CustomPart Name="CustomSizeUserResizePart"
+            ViewModel="{ViewModel Name=PartSizesCustomSizeUserResizePartViewModel, Module=./PartSizes/ViewModels/PartSizesViewModels}"
+            Template="{Html Source='Templates\\SizeAwarePart.html'}"
+            InitialSize="Custom"
+            InitialWidth="5"
+            InitialHeight="2"
+            ResizeMode="User">
+</CustomPart>
 
-	```
+```
 
 4. The following part defaults to an arbitrary size, and can be resized programatically.  
 
@@ -375,12 +375,13 @@ A working copy is located at [http://aka.ms/portalfx/samples#blade/SamplesExtens
 
 ```typescript
 
-	```ts
-	onClick: () => {
-    	container.resizeTo(resizeA.width, resizeA.height);
-	},
+onClick: () => {
+    container.resizeTo(resizeA.width, resizeA.height);
+},
         });
-       ```
+
+        
+```
 
 <a name="parts-overview-per-user-part-settings"></a>
 ### Per user part settings
@@ -663,7 +664,7 @@ This example is based on the sample located at `<dir>\Client\V1\Hubs\Browse\Brow
 
  The **CanUseOldInputVersion** attribute can be set to `true` to specify that the part can process older versions of inputs. It should be used in conjunction with the  part property named `version`, as in the following example.
   <!--
-gitdown": "include-file", "file": "../Samples/SamplesExtension/Extension/Client/V1/Hubs/Browse/Browse.pdl
+gitdown": "include-file", "file": "../../../src/SDK/AcceptanceTests/Extensions/SamplesExtension/Extension/Client/V1/Hubs/Browse/Browse.pdl
 -->
 
 ```xml

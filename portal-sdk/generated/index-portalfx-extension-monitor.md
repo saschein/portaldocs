@@ -37,12 +37,13 @@
     * [What happens if I need to update them?](portalfx-telemetry-alerting-availability.md#what-happens-if-i-need-to-update-them)
     * [Questions and suggestions?](portalfx-telemetry-alerting-availability.md#questions-and-suggestions)
 
-* [Configuration](portalfx-telemetry-alerting-performance.md#configuration)
-* [How often do they run?](portalfx-telemetry-alerting-performance.md#how-often-do-they-run)
-* [How do I onboard?](portalfx-telemetry-alerting-performance.md#how-do-i-onboard)
-* [How do I know my extension's current customization?](portalfx-telemetry-alerting-performance.md#how-do-i-know-my-extension-s-current-customization)
-* [What happens if I need to update them?](portalfx-telemetry-alerting-performance.md#what-happens-if-i-need-to-update-them)
-* [Questions and suggestions?](portalfx-telemetry-alerting-performance.md#questions-and-suggestions)
+* [Performance](portalfx-telemetry-alerting-performance.md#performance)
+    * [Configuration](portalfx-telemetry-alerting-performance.md#configuration)
+    * [How often do they run?](portalfx-telemetry-alerting-performance.md#how-often-do-they-run)
+    * [How do I onboard?](portalfx-telemetry-alerting-performance.md#how-do-i-onboard)
+    * [How do I know my extension's current customization?](portalfx-telemetry-alerting-performance.md#how-do-i-know-my-extension-s-current-customization)
+    * [What happens if I need to update them?](portalfx-telemetry-alerting-performance.md#what-happens-if-i-need-to-update-them)
+    * [Questions and suggestions?](portalfx-telemetry-alerting-performance.md#questions-and-suggestions)
 
 * [Client Error](portalfx-telemetry-alerting-error-messages.md#client-error)
     * [Configuration](portalfx-telemetry-alerting-error-messages.md#configuration)
@@ -134,7 +135,6 @@
     * [Create Flow Telemetry Dashboards](portalfx-telemetry-create.md#create-flow-telemetry-dashboards)
     * [Create Flow table](portalfx-telemetry-create.md#create-flow-table)
     * [Create Flow Functions](portalfx-telemetry-create.md#create-flow-functions)
-* [<a name="FAQ"></a>FAQ](portalfx-telemetry-create.md#a-name-faq-a-faq)
 
 * [Create Troubleshooting](portalfx-create-troubleshooting.md#create-troubleshooting)
     * [Overview](portalfx-create-troubleshooting.md#overview)

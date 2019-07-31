@@ -54,7 +54,7 @@ When there are more than 5 items in any panes, only first 5 items in each panes 
 ##### Link
 ```typescript
 {
-    label: "Sample Label",
+    lable: "Sample Label",
     value: "Bing.com",
     onClick: new ClickableLink(ko.observable("http://www.bing.com"))
 }

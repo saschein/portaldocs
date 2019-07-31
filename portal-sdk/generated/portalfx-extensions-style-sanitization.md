@@ -5,24 +5,21 @@ For an overall style guide refer to the [design-patterns-style-guide.md](design-
 <a name="style-style-sanitization"></a>
 ## Style: Style Sanitization
 
-CSS is analyzed at runtime to filter out disallowed properties or values.
+To ensure a consistent and sandboxed experience in the portal, CSS is analyzed at runtime to filter out disallowed properties or values. A typical example of a disallowed style is "`position: fixed;`", which would allow developers to move content outside of their parts.
 
-Apart from the few exceptions documented below, most CSS properties should be allowed. You may encounter CSS properties being erroneously filtered out. Shall this occur, report the issue on [Stack Overflow](https://stackoverflow.microsoft.com/).
+All CSS properties should be allowed with a few exceptions documented at the end of this article. As the analysis is whitelist based, you may encounter CSS properties being erroneously filtered out. Shall this occur, report the issue on [Stack Overflow](https://stackoverflow.microsoft.com/).
 
-Properties that allow specific values:
+The following properties only allow the specified values:
 
-* `position`: [ `static` | `relative` | `absolute` ]
-    * [ `fixed` ] is disallowed
-* `text-transform`: [ `none` | `uppercase` | `lowercase` ]
+1. position: [ static | relative | absolute ]
+1. text-transform: [ none | uppercase | lowercase ]
 
-Properties that are sanitized out:
+The following properties are sanitized out:
 
-* `font`
-    * Use `font-*` properties instead of the shorthand
-* `font-family`
-    * Use `msportalfx-font-*` instead
-* `list-style`
-    * Use `list-style-*` properties instead of the shorthand
-* `user-select`
-    * Use class `msportalfx-unselectable` to normalize support across browsers
-* `z-index`
+1. font
+1. font-family
+1. list-style
+
+Certain properties have inconsistent behavior across browsers, or full support requires vendor prefixes. To enable them in a supported way, use the Framework style class instead.
+
+* user-select: use class 'msportalfx-unselectable'

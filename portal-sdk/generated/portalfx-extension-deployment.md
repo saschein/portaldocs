@@ -4,20 +4,19 @@
     * [Overview](#deploy-overview)
         * [Portal](#deploy-overview-portal)
         * [Portal deployment schedule](#deploy-overview-portal-deployment-schedule)
-    * [Before deploying your extension](#deploy-before-deploying-your-extension)
-        * [(1) For extensions onboarding Ibiza: Enable/disable extensions](#deploy-before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
-        * [(2) Extension "stamps"](#deploy-before-deploying-your-extension-extension-stamps)
-        * [(3) Understand extension runtime compatibility](#deploy-before-deploying-your-extension-understand-extension-runtime-compatibility)
+    * [Before deploying extension](#deploy-before-deploying-extension)
+        * [1. For extensions onboarding Ibiza: Enable/disable extensions](#deploy-before-deploying-extension-for-extensions-onboarding-ibiza-enable-disable-extensions)
+        * [2. Extension "stamps"](#deploy-before-deploying-extension-extension-stamps)
+        * [3. Understand extension runtime compatibility](#deploy-before-deploying-extension-understand-extension-runtime-compatibility)
     * [Deploying extension UI](#deploy-deploying-extension-ui)
     * [Deploying extension controllers](#deploy-deploying-extension-controllers)
     * [Legacy/DIY deployments](#deploy-legacy-diy-deployments)
     * [Resiliency and failover](#deploy-resiliency-and-failover)
-    * [Logging](#deploy-logging)
-    * [Monitoring](#deploy-monitoring)
     * [National/sovereign clouds](#deploy-national-sovereign-clouds)
         * [Overview](#deploy-national-sovereign-clouds-overview-1)
     * [Per-cloud information](#deploy-per-cloud-information)
         * [Common gotchas](#deploy-per-cloud-information-common-gotchas)
+        * [AllowedParentFrame](#deploy-per-cloud-information-allowedparentframe)
 
 
 <a name="deploy-overview"></a>
@@ -55,15 +54,17 @@ to production. When a new version of the portal is deployed to production, the c
 automatically released to the [download center](/portal-sdk/generated/downloads.md). The download center contains the change log for the given
 release, including bug fixes, new features, and a log of breaking changes.
 
-<a name="deploy-before-deploying-your-extension"></a>
-## Before deploying your extension
+<a name="deploy-before-deploying-extension"></a>
+## Before deploying extension
 
 1. For extensions onboarding Ibiza: Enable/disable extensions
 1. Extension "stamps"
 1. Understand extension runtime compatibility
 
-<a name="deploy-before-deploying-your-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
-### (1) For extensions onboarding Ibiza: Enable/disable extensions
+<a name="deploy-before-deploying-extension-for-extensions-onboarding-ibiza-enable-disable-extensions"></a>
+### >
+<li>For extensions onboarding Ibiza: Enable/disable extensions</li>
+<
 
 New extensions are disabled by default. This will hide the extension from users (it won't show up in the portal at all)
 until it's ready for general use.
@@ -80,8 +81,10 @@ to enable both the extension and the Gallery item:
 
 To permanently enable an extension (e.g. if it's ready for general use), please contact the portal team.
 
-<a name="deploy-before-deploying-your-extension-extension-stamps"></a>
-### (2) Extension &quot;stamps&quot;
+<a name="deploy-before-deploying-extension-extension-stamps"></a>
+###  start="2">
+<li>Extension &quot;stamps&quot;</li>
+<
 
 Every extension can deploy one or more "stamps" based on their testing requirements. In Azure parlance, a "stamp" is an
 instance of a service in a region. The "main" stamp is used for production and is the only one the portal will be
@@ -107,8 +110,10 @@ of your extension as registered in the portal. For instance,
 `https://perf.devtest.ext.azure.com`). Note that you must specify the flag `feature.canmodifystamps=true` in order to
 override the stamp.
 
-<a name="deploy-before-deploying-your-extension-understand-extension-runtime-compatibility"></a>
-### (3) Understand extension runtime compatibility
+<a name="deploy-before-deploying-extension-understand-extension-runtime-compatibility"></a>
+###  start="3">
+<li>Understand extension runtime compatibility</li>
+<
 
 Extensions do not need to be recompiled and redeployed with every release of the SDK.
 
@@ -147,7 +152,6 @@ latency.)
 ## Legacy/DIY deployments
 
 If you choose to deploy extension UI through legacy / DIY deployments, make sure you understand that
-
 1.	You will be responsible for deploying to all regions
 1.	You will be responsible for deploying service to every new data center
 1.	You will be responsible for MDS setup, upgrade, Security pack upgrade and other infrastructure tasks
@@ -171,7 +175,6 @@ We see much higher latencies and reliability issues when servers are not geo-loc
 (For more tips, see the [performance page](top-extensions-performance.md).)
 
 In order to deploy to all regions:
-
 1.	Use [Extension Hosting Service](portalfx-extension-hosting-service.md) to deploy UI
 1.	Deploy Controllers to all regions
 
@@ -189,42 +192,6 @@ In the first case, you can probably get away with fewer servers, but in the seco
 [deployment-architecture]: ../media/portalfx-deployment/deployment.png
 
 This document has moved to [Extension Hosting Service](top-extensions-hosting-service.md).
-<a name="deploy-logging"></a>
-## Logging
- The portal provides a way for extensions to log to MDS using a feature that can be enabled in the extension.
-
- More information about the portal logging feature can be found here [https://auxdocs.azurewebsites.net/en-us/documentation/articles/portalfx-telemetry-logging](https://auxdocs.azurewebsites.net/en-us/documentation/articles/portalfx-telemetry-logging)
-
- The logs generated by the extension when this feature is enabled can be found in a couple of tables in the portal's MDS account
-
-Trace Events
-
->https://ailoganalyticsportal-privatecluster.cloudapp.net/clusters/Azportal/databases/AzurePortal?query=ExtEvents%7Cwhere+PreciseTimeStamp%3Eago(10m)
-
->ExtEvents | where PreciseTimeStamp >ago(10m)
-
-Telemetry Events
-
-
->https://ailoganalyticsportal-privatecluster.cloudapp.net/clusters/Azportal/databases/AzurePortal?query=ExtTelemetry%7Cwhere+PreciseTimeStamp%3Eago(10m)
-
->ExtTelemetry | where PreciseTimeStamp >ago(10m)
-
-<a name="deploy-monitoring"></a>
-## Monitoring
- There are two categories of issues that needs to be monitored for each extension and that partners can act on.
-
- * Portal loading and running the extension
-
-    The portal already has alerts setup to notify extensions of when it fails to load the extension for any reason. More work is being done to monitor other issues like blade load failures and part load failures.
-
- * Hosting Service downloading and service the extension
-
-    The hosting service will ping the endpoint where it expects to find the extension bits every minute. It will then download any new configurations and verions it finds. If it fails to download or process the downloaded files it log these as errors in its own MDS tables.
-    We are working on setting up alerts and monitors for such issues. Currently we get notified if any errors or warnings are generated by the hosting service. 
-    You can access the logs of the hosting service using the below link
-    https://jarvis-west.dc.ad.msft.net/53731DA4
-
 <properties pageTitle="Deployments" description="Deployments" services="portalfx" documentationCenter="portalfx" authors="flanakin,spaoliello" />
 
 <a name="deploy-national-sovereign-clouds"></a>
@@ -246,14 +213,12 @@ To get started in a sovereign cloud, talk to the Azure Global Ecosystems team or
 | Mooncake       | portal.azure.cn          | *.ext.azure.cn          | [Mooncake wiki](http://aka.ms/mooncake/)    |
 | Fairfax        | portal.azure.us          | *.ext.azure.us          | [Fairfax wiki](http://aka.ms/fairfax/)     |
 
-*Note that information on the domains and URLs for each cloud (e.g. what the URL for ARM/AAD is) is contained on each cloud's wiki under a page called "Endpoints".*
-
 
 <a name="deploy-per-cloud-information-common-gotchas"></a>
 ### Common gotchas
 
-<a name="deploy-per-cloud-information-common-gotchas-allowedparentframe"></a>
-#### AllowedParentFrame
+<a name="deploy-per-cloud-information-allowedparentframe"></a>
+### AllowedParentFrame
 When you deploy your extension to a different cloud, you must explicitly allow the portal in that cloud to load your extension.
 This is controlled in your config. Look for a setting called `Microsoft.Portal.Framework.FrameworkConfiguration.AllowedParentFrame`. It should be a JSON array of domains that can load your extension (i.e. list of portal domains for a given cloud).
 
